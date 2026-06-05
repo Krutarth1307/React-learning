@@ -3,6 +3,8 @@ import IconSova from './assets/Sova.png';
 import IconSage from './assets/Sage.png';
 import IconJett from './assets/Jett.png';
 
+
+
 function App() {
 
   return(
@@ -20,10 +22,14 @@ function App() {
              description = "I'm healer but i'm not just a healer. " 
              icon = {IconSage}
              />
+
+      <Props/>
       
     </>
 
   )
   }
+
+  
     
 export default App
