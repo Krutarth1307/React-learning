@@ -1,6 +1,7 @@
 .card{
     margin: 10px;
     max-width: 270px;
+    max-height: 370px;
     text-align: center;
     display: inline-block;
     border: solid hsla(0, 0%, 0%, 0.4);
@@ -10,8 +11,8 @@
 }
 .image{
     width: 250px;
-    border-radius: 600px;
-    height: auto;
+    height: 250px;
+    border-radius: 700px;
 }
 
 .name{
