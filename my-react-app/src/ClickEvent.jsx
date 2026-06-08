@@ -1,12 +1,13 @@
-
+ import image from './assets/hero.png';
 
 function ClickEvent (){
 
+
     let count = 0;
-    const click = (e) => e.target.textContent = `Ouch!`;
+    const click = (e) => e.target.style.display = "none";
 
     return(
-        <button onClick ={(e) => click(e)}>Click me...</button>
+        <img src= {image} alt="Image" onClick={click} />
     )
 }
 
