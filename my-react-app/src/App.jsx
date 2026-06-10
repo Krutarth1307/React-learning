@@ -1,17 +1,24 @@
-import List from "./assets/List";
-import Props from "./Props";
-import sova from "./assets/Sova.png";
-import jett from "./assets/Jett.png";
-import ClickEvent from "./ClickEvent";
+// import List from "./assets/List";
+// import Props from "./Props";
+// import sova from "./assets/Sova.png";
+// import jett from "./assets/Jett.png";
+// import ClickEvent from "./ClickEvent";
+
+import Count from "./Count";
 
 
 function App(){
       
-       return(
-              <>
-                     <ClickEvent />
-              </>
-       )
+      return (
+       <>
+              <Count />
+       </>
+      );
+       
+
+
+
+
 
 
 
