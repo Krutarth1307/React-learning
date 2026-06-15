@@ -4,14 +4,13 @@
 // import jett from "./assets/Jett.png";
 // import ClickEvent from "./ClickEvent";
 
-import Car from "./Car";
-
+import AddList from "./AddList";
 
 function App(){
       
       return (
        <>
-            <Car/>
+            <AddList/>
        </>
       );
        
