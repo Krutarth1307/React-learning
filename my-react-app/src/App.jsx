@@ -4,14 +4,14 @@
 // import jett from "./assets/Jett.png";
 // import ClickEvent from "./ClickEvent";
 
-import Onchange from "./Onchange";
+import Car from "./Car";
 
 
 function App(){
       
       return (
        <>
-            < Onchange/>
+            <Car/>
        </>
       );
        
