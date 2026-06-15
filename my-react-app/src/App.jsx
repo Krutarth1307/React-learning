@@ -4,14 +4,14 @@
 // import jett from "./assets/Jett.png";
 // import ClickEvent from "./ClickEvent";
 
-import Count from "./Count";
+import Onchange from "./Onchange";
 
 
 function App(){
       
       return (
        <>
-              <Count />
+            < Onchange/>
        </>
       );
        

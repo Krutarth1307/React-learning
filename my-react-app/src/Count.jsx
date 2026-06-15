@@ -7,11 +7,11 @@ function Count(){
         const [age, setAge] = useState(18);
 
         const increase = () => {
-            setCount(count + 1);
+            setCount(count => count + 1);
         }
 
         const decrease = () => {
-            setCount(count - 1);
+            setCount(count => count - 1);
         }
 
         const reset = () => {
@@ -23,11 +23,11 @@ function Count(){
         }
 
         const increaseAge = ()=>{
-            setAge(age+1);
+            setAge(age => age + 1);
         }
 
         const decreaseAge = ()=>{
-            setAge(age-1);
+            setAge(age => age - 1);
         }
             
 
